@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    margin: 20px 40px;
+
+}
+div:hover p{
+    opacity: 40%;
+}
+div{
+    transition-duration: 150s;
+
+}
+div p{
+    transition-duration: 1s;
+}
+div p:hover{
+    opacity: 100%;
+}
+body{
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
